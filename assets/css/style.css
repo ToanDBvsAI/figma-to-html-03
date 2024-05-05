@@ -90,3 +90,65 @@ a {
 .header__action--login{
     margin-right: 7px;
 }
+/* ================= hero =================*/
+.hero{
+    display: flex;
+    padding: 76px;
+    align-items: center;
+}
+.hero__content{
+    width: 44%;
+}
+.hero_media{
+    flex:1;
+}
+.hero__heading{
+    color: #FFF;
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.14; /* 114.286% */
+    letter-spacing: -1.4px;
+}
+.hero__desc {
+    margin-top: 22px;
+    color: #C9D2DA;
+    font-family: Sora;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 166.667% */
+}
+.hero_row{
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    column-gap: 38px;
+}
+.hero__phone {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.67; /* 166.667% */
+}
+.hero__images {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.hero__img {
+    border-radius: 6px;
+    object-fit: cover;
+
+}
+.hero__img-large {
+    width: 330px;
+    height: 540px;
+    margin-right: -6px;
+    /* anh chong len duoi */
+    z-index: 1;
+}
+.hero__img-small {
+    width: 210px;
+    height: 410px;
+}
