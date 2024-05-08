@@ -554,3 +554,28 @@ box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
 .blog-item__more:hover{
     color:#2E80CE;
 }
+/* =================== Appointment ====================== */
+.appointment{
+    margin: 85px 0;
+}
+.appointment__inner{
+    padding:100px 178px;
+    background: #F6FBFF;
+    text-align: center;
+}
+
+.appointment__heading::after{
+    content: "";
+    display: flex;
+    width: 136px;
+    height: 2px;
+    background: #2E80CE;
+    margin: 18px auto 0;
+}
+.appointment__desc{
+    margin-top: 18px;
+    min-width: 617px;
+}
+.appointment__btn{
+    margin-top: 38px;
+}
